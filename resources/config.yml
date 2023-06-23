@@ -1,0 +1,56 @@
+
+world: deathban
+
+duration: 3600
+
+kit:
+  armor: []
+  items: []
+
+weighted:
+  - gold: 300
+  - silver: 300
+  - bronze: 300
+
+deathbanReduction: 600
+
+useLifeSign:
+  pos: "0:38:-77"
+  format:
+    - '§7-------------'
+    - '§0Have a life?'
+    - '§2§lClick Here'
+    - '§7-------------'
+killedBySign:
+  pos: "-1:39:-77"
+  format:
+    - '§7-------------'
+    - '§l§cKiller'
+    - '§r§0{killer}'
+    - '§7-------------'
+timeLeftSign:
+  pos: "0:39:-77"
+  format:
+    - '§7-------------'
+    - '§l§6Time Left'
+    - '§r§0{time}'
+    - '§7-------------'
+deathLocationSign:
+  pos: "1:39:-77"
+  format:
+    - '§7-------------'
+    - '§l§1Location'
+    - '§r§0{death_pos}'
+    - '§7-------------'
+kitSign:
+  pos: "0:40:-77"
+  format:
+    - '§9- Kit -'
+    - '§0PvP'
+
+allowedCommands:
+  - "tell"
+  - "r"
+  - "f say"
+  - "f chat"
+  - "f c"
